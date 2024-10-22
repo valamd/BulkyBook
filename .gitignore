@@ -1,1 +1,11 @@
 /.vs/
+# Ignore appsettings.json and other config files
+appsettings.json
+appsettings.*.json
+
+# Ignore secrets and API keys (e.g., SendGrid, Azure AD)
+*.key
+*.secret
+
+# Ignore the "Bulky new" folder and its contents
+Bulky new/
