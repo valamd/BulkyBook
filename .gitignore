@@ -1,8 +1,8 @@
 /.vs/
 # Ignore appsettings.json and other config files
 appsettings.json
-appsettings.*.json
-
+appsettings.Development.json
+appsettings.Production.json
 # Ignore secrets and API keys (e.g., SendGrid, Azure AD)
 *.key
 *.secret
